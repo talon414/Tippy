@@ -86,14 +86,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
+        android:layout_marginEnd="32dp"
         android:ems="10"
+        android:fadingEdgeLength="200dp"
         android:fontFamily="@font/open_sans"
         android:foregroundGravity="fill"
         android:hint="Bill Amount"
         android:inputType="numberDecimal"
+        android:maxLength="8"
         android:minHeight="48dp"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvBase"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvBase"
         app:layout_constraintTop_toTopOf="@+id/tvBase" />
 
